@@ -4,7 +4,7 @@ var querystring = require('querystring');
 
 var exec = require('child_process').exec;
 
-var git_dir = "/home/mmcconfe/node-apps/mmc";
+var git_dir = "/home/mmcconfe/www/jen";
 
 function doDeploy() {
     exec("cd "+git_dir+" && git pull");
